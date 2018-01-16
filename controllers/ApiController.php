@@ -27,7 +27,7 @@ class ApiController extends Controller {
      * https://api.hh.ru/vacancies/24107816
      *      */
     public function actionVacancy() {
-        $headers = file_get_contents('https://api.hh.ru/vacancies/24107816');
+        $headers = file_get_contents('https://api.hh.ru/vacancies/24107816/');
         
         
         $this->ApiContent = $headers;
