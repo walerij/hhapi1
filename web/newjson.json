@@ -1,0 +1,90 @@
+{
+	"alternate_url": "https://hh.ru/vacancy/24107816",
+	"code": null,
+	"premium": true,
+	"description": "<p>Компания СёрчИнформ, ведущий российский разработчик средств 
+	информационной безопасности, приглашает на постоянную работу PR-менеджера.</p>
+	<p><strong>Обязанности:</strong></p> <p>• Написание новостей и пресс-релизов о 
+	внутренних и внешних мероприятиях</p> <p>• 
+	Контакты со СМИ, организаторами мероприятий, 
+	контрагентами, партнерами</p> <p>• Написание текстов к промо-материалам, подготовка докладов и презентаций совместно с нашими спикерами (оформление, написание текстов, помощь с определением темы и проч.)</p> <p>• Координация изготовления маркетинговых материалов, доставки их до места проведения мероприятия</p> <p>• Аналитика по мероприятиям: отдача, посетители, интерес, выводы по дальнейшему участию</p> <p><strong>Требования:</strong></p> <p>• Грамотные, логичные, структурированные тексты (портфолио)</p> <p>• Опыт организации мероприятий, работы с документами, опыт ведения переговоров</p> <p>• Умение планировать работу, придерживаться дедлайнов, настаивать на их соблюдении другими участниками рабочего процесса</p> <p>• Готовность к высокому ритму работы, стрессоустойчивость, стремление к обучению</p> <p><strong>Условия</strong></p> <p>• Оформление по ТК</p> <p>• Испытательный срок 3 месяца</p> <p>• Удобный и красивый офис со спортзалом, зонами отдыха, кухней и собственной гостиницей</p> <p>• Чай, кофе, хлеб, вода, зрелища (по договоренности:))</p> <p> </p>",
+	"test": null,
+	"schedule": {
+		"id": "fullDay",
+		"name": "Полный день"
+	},
+	"driver_license_types": [],
+	"suitable_resumes_url": null,
+	"site": {
+		"id": "hh",
+		"name": "hh.ru"
+	},
+	"billing_type": {
+		"id": "premium",
+		"name": "Премиум"
+	},
+	"published_at": "2018-01-16T08:34:13+0300",
+	"accept_incomplete_resumes": false,
+	"accept_handicapped": false,
+	"experience": {
+		"id": "between1And3",
+		"name": "От 1 года до 3 лет"
+	},
+	"address": null,
+	"key_skills": [],
+	"allow_messages": true,
+	"employment": {
+		"id": "full",
+		"name": "Полная занятость"
+	},
+	"id": "24107816",
+	"response_url": null,
+	"salary": {
+		"to": 900,
+		"gross": false,
+		"from": 800,
+		"currency": "BYR"
+	},
+	"archived": false,
+	"name": "PR-менеджер",
+	"contacts": null,
+	"employer": {
+		"logo_urls": {
+			"90": "https://hhcdn.ru/employer-logo/1958726.png",
+			"original": "https://hhcdn.ru/employer-logo-original/379117.png",
+			"240": "https://hhcdn.ru/employer-logo/1958727.png"
+		},
+		"vacancies_url": "https://api.hh.ru/vacancies?employer_id=534283",
+		"name": "Searchinform",
+		"url": "https://api.hh.ru/employers/534283",
+		"alternate_url": "https://hh.ru/employer/534283",
+		"id": "534283",
+		"trusted": true
+	},
+	"created_at": "2018-01-16T08:34:13+0300",
+	"area": {
+		"url": "https://api.hh.ru/areas/1002",
+		"id": "1002",
+		"name": "Минск"
+	},
+	"relations": [],
+	"accept_kids": false,
+	"response_letter_required": false,
+	"apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=24107816",
+	"quick_responses_allowed": false,
+	"negotiations_url": null,
+	"department": null,
+	"branded_description": null,
+	"hidden": false,
+	"type": {
+		"id": "open",
+		"name": "Открытая"
+	},
+	"specializations": [{
+			"profarea_id": "3",
+			"profarea_name": "Маркетинг, реклама, PR",
+			"id": "3.8",
+			"name": "PR, Маркетинговые коммуникации"
+		}
+	]
+}
