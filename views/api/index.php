@@ -11,11 +11,20 @@ $url = Url::to(['/api/vacancy/']);
         Вакансия
     </a>
     
+    <a class="btn btn-default" title="Парсинг специальности" href="<?= Url::to(['/api/specparsing/']); ?>">
+        Парсинг
+    </a>
     
     <hr>
 </div>
 <div>
-    <pre>
-        <?= $ApiContent ?>
-    </pre>
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            вывод
+        </div>
+        <div class="panel-body">
+             <?= $ApiContent ?>
+        </div>
+       
+    </div>
 </div>

@@ -22,25 +22,39 @@ class ApiController extends Controller {
         return $this->render('index', ['ApiContent' => $this->ApiContent]);
     }
 
-    /**
+   /*
 
-     * https://api.hh.ru/vacancies/24107816
-     *      */
+    * получение вакансий
+    *     */
     public function actionVacancy() {
      
         $this->ApiContent = $this->getApi('https://api.hh.ru/vacancies/24107816/');
         return $this->render('index', ['ApiContent' =>  $this->ApiContent]);
     }
 
+    //*
+    //получение специальностей
+    //*/
     public function actionSpec() {
-        // Создаем поток
+       
         
         $this->ApiContent = $this->getApi('https://api.hh.ru/specializations');
         return $this->render('index', ['ApiContent' =>  $this->ApiContent]);
     }
+      public function actionSpecparsing() {
+        $content =$this->getApi('https://api.hh.ru/specializations');
+        $response = json_decode($content, true);
+        
+        $this->ApiContent = $response[0]['name'];
+        return $this->render('index', ['ApiContent' =>  $this->ApiContent]);
+    }
    
+    /*
+
+     * обработка ссылок на api.hh.ru
+     *      */
     public function getApi($url='')
-    {
+    { // Создаем поток
         $opts = array(
             'http' => array(
                 'method' => "GET",
